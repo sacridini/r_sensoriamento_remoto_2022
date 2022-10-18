@@ -8,3 +8,4 @@
 
 ## Outras fontes:
 #### Geocomputation with R: https://geocompr.robinlovelace.net/index.html
+#### Awesome Geospatial: https://github.com/sacridini/Awesome-Geospatial
