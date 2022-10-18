@@ -1,4 +1,4 @@
-# Vari?vel ----------------------------------------------------------------
+# Variável ----------------------------------------------------------------
 a = 1
 
 # Tipos de dados ----------------------------------------------------------
@@ -7,7 +7,7 @@ pi = 3.14 # numeric
 nome = "Eduardo" # character (string)
 v = TRUE # logical (TRUE, FALSE ou T, F)
 
-# Operadores aritm?ticos --------------------------------------------------
+# Operadores aritméticas --------------------------------------------------
 soma = 5 + 5
 subt = 5 - 5
 div = 5 / 5
@@ -16,7 +16,7 @@ expo = 5 ^ 2
 expo2 = 5 ** 2
 índice = (5 - 2) / (423 + 10)
 
-# Operadores relacionais/l?gicos ------------------------------------------
+# Operadores relacionais/lógicos ------------------------------------------
 maior_que = 5 > 3
 menor_que = 5 < 2
 maior_ou_igual = 4 >= 2
@@ -85,14 +85,14 @@ for (v in vec1) {
   print(v)
 }
 
-# Fun??es -----------------------------------------------------------------
+# Funções -----------------------------------------------------------------
 # exemplo 1
 say_my_name = function(nome) {
   print(nome)
 }
 say_my_name("Eduardo")
 
-#exemplo 2
+# exemplo 2
 add = function(x, y) {
   resultado = x + y
   return(resultado)
