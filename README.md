@@ -13,6 +13,7 @@
 
 ## Professor: 
 #### Eduardo Ribeiro Lacerda   
+#### email: eduardolacerdageo@gmail.com 
 #### Lattes: http://lattes.cnpq.br/0392869318849187  
 #### ResearchGate: https://www.researchgate.net/profile/Eduardo-Lacerda  
-#### email: eduardolacerdageo@gmail.com  
+ 
