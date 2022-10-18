@@ -10,3 +10,9 @@
 #### Geocomputation with R: https://geocompr.robinlovelace.net/index.html
 #### Awesome Geospatial: https://github.com/sacridini/Awesome-Geospatial
 #### Terra Documentation: https://cran.r-project.org/web/packages/terra/terra.pdf
+
+Professor: 
+Eduardo Lacerda 
+Lattes: http://lattes.cnpq.br/0392869318849187
+ResearchGate: https://www.researchgate.net/profile/Eduardo-Lacerda
+email: eduardolacerdageo@gmail.com
