@@ -57,6 +57,8 @@ df = data.frame(
 df[1,1]
 df[,2]
 
+head(df)
+is.data.frame(df)
 
 # Condicionais (if, else) ----------------------------------------
 # if (condition) {statement}
@@ -88,7 +90,6 @@ for (v in vec1) {
 say_my_name = function(nome) {
   print(nome)
 }
-
 say_my_name("Eduardo")
 
 #exemplo 2
@@ -98,3 +99,19 @@ add = function(x, y) {
 }
 
 add(2,2)
+
+# Leitura de dados --------------------------------------------------------
+library(dplyr)
+data_url <- "https://raw.githubusercontent.com/swcarpentry/r-novice-gapminder/main/data/gapminder_data.csv"
+gapminder <- read.csv(data_url) # leitura dos dados
+head(gapminder)
+tail(gapminder)
+names(gapminder)
+
+glimpse(gapminder) # resumo
+filter(gapminder, country == "Brazil" ) # filtra a tabela
+brazil_2000 <- filter(gapminder, country == "Brazil" & year > 2000 ) # filtra a tabela
+select(brazil_2000, country, year, lifeExp) # faz um subset na tabela
+select(brazil_2000, -continent)
+gapminder_new = mutate(gapminder, GDP = (gdpPercap * pop) / 1000000) # cria uma nova coluna
+transmute(gapminder, GDP = (gdpPercap * pop) / 1000000) # faz a mesma coisa que o mutate mas mantém somente a coluna criada
