@@ -1,4 +1,4 @@
-# Variável ----------------------------------------------------------------
+# Vari?vel ----------------------------------------------------------------
 a = 1
 
 # Tipos de dados ----------------------------------------------------------
@@ -7,16 +7,16 @@ pi = 3.14 # numeric
 nome = "Eduardo" # character (string)
 v = TRUE # logical (TRUE, FALSE ou T, F)
 
-# Operadores aritméticos --------------------------------------------------
+# Operadores aritm?ticos --------------------------------------------------
 soma = 5 + 5
 subt = 5 - 5
 div = 5 / 5
 multi = 5 * 5
 expo = 5 ^ 2
 expo2 = 5 ** 2
-índice = (5 - 2) / (423 + 10)
+Ã­ndice = (5 - 2) / (423 + 10)
 
-# Operadores relacionais/lógicos ------------------------------------------
+# Operadores relacionais/l?gicos ------------------------------------------
 maior_que = 5 > 3
 menor_que = 5 < 2
 maior_ou_igual = 4 >= 2
@@ -24,7 +24,7 @@ menor_ou_igual = 2 <= 2
 igual = 10 == 10
 diferente = 5 != 10
 
-# Sequências --------------------------------------------------------------
+# Sequ?ncias --------------------------------------------------------------
 seq1 = 1:10
 seq2 = seq(1:10)
 seq3 = seq(0, 100, by = 10)
@@ -42,7 +42,7 @@ m2 = matrix(1:4, ncol = 1, nrow = 4)
 m3 = matrix(1:4, ncol = 4, nrow = 1)
 
 # Estruturas de dados (lista) ---------------------------------------------
-lista1 = list(c(1,2,3), "Olá", 1:10)
+lista1 = list(c(1,2,3), "Ol?", 1:10)
 lista1[[1]]
 lista1[[2]]
 lista1[[3]]
@@ -50,7 +50,7 @@ lista1[[4]]
 
 # Estruturas de dados (data.frame) ----------------------------------------
 df = data.frame(
-  nome = c("Eduardo", "Carlos", "José"),
+  nome = c("Eduardo", "Carlos", "JosÃ©"),
   idade = c(35, 42, 67)
 )
 
@@ -64,13 +64,13 @@ x = 5
 y = 1
 
 if (x < y) {
-  print("x é maior")
+  print("x ? maior")
 }
 
 if (x < y) {
-  print("x é maior")
+  print("x ? maior")
 } else {
-  print("x é menor")
+  print("x ? menor")
 }
 
 # For loop ----------------------------------------------------------------
@@ -83,7 +83,7 @@ for (v in vec1) {
   print(v)
 }
 
-# Funções -----------------------------------------------------------------
+# Fun??es -----------------------------------------------------------------
 # exemplo 1
 say_my_name = function(nome) {
   print(nome)
