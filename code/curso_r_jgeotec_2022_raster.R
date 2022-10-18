@@ -51,7 +51,6 @@ ndvi_fun = function(nir, red){
 
 ndvi2 = ndvi_fun(nir, red)
 
-
 # Operações focais (moving window) ----------------------------------------
 srtm_focal_mean = focal(srtm, w = c(3, 3), fun = "mean")
 srtm_focal_majority = focal(srtm, w = c(3, 3), fun = "modal")
